@@ -1,5 +1,5 @@
 
-
+---------------------------------------------------------------------------------------------------------
 class and object : 
 
 class ClassName:
@@ -7,5 +7,27 @@ class ClassName:
     
 objectName = ClassName()
 
+------------------------------------------------------------------------------------------------------------
 
+constructor:
+
+class class_name :
+    def __init__(self):                        # constructor represent by __ init __
+        self.origin_value = 10                 # self.var_name - to create variable inside constructor
+    def value(self):
+        print (self.origin_value)
+
+-----------------------------------------------------------------------------------------------------------------------
+
+importing one python file into another python file in jupyter note book 
+                
+    1) download ipynb python file with .py extension
+    2) move downloaded .py file at path of ipynb file where we want import .py file
+                
+    importing syntax :
+            import pm_module                        # here mention python file name without extension 
+            obj = pm_module.operations()
+
+-------------------------------------------------------------------------------------------------------------------------
+                
 
