@@ -43,7 +43,10 @@ importing one python file into another python file in jupyter note book
     importing syntax :
             import pm_module                        # here mention python file name without extension 
             obj = pm_module.operations()
-
+            
+    for importing specific method/function from file 
+    # from <file-name> import <function-name>
+    
 -------------------------------------------------------------------------------------------------------------------------
                 
 
