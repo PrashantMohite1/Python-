@@ -1,5 +1,11 @@
 
 ---------------------------------------------------------------------------------------------------------
+Funtion :
+
+def function_name(arguments):
+    # function body 
+
+---------------------------------------------------------------------------------------------------------
 class and object : 
 
 class ClassName:
@@ -19,6 +25,16 @@ class class_name :
 
 -----------------------------------------------------------------------------------------------------------------------
 
+lamda function : 
+    Python Lambda Functions are anonymous function means that the function is without a name.
+
+ syntax :
+    lambda argument(s) : expression 
+    
+    ex-: var_A = lambda  a: a * a
+         print(c(2))
+         
+-----------------------------------------------------------------------------------------------------------------------
 importing one python file into another python file in jupyter note book 
                 
     1) download ipynb python file with .py extension
